@@ -1,0 +1,56 @@
+/* Media Queries */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+		margin: 0 auto;
+		padding: 0;
+		background-color: #F0F0F0;
+    }
+    .wrapper .outerContent{
+		margin: 0 auto;
+		width: 100% !important;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+		margin: 0 auto;
+		padding: 0;
+		background-color: #F0F0F0;
+    }
+    .wrapper .outerContent{
+		margin: 0 auto;
+		width: 100% !important;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+		margin: 0 auto;
+		padding: 0;
+		background-color: #F0F0F0;
+    }
+    .wrapper .outerContent{
+		margin: 0 auto;
+		width: 80% !important;
+	}
+}
+/* Media Queries */
+/* Custom Code */
+body{
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 auto;
+	padding: 0;
+	background-color: #F0F0F0;
+}
+ul,dl,dt,dd{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+}
+/* -- Wrapper Content --*/
+.wrapper{
+	width: 100%;
+}
